@@ -10,7 +10,6 @@ import com.miron.kursach.DB_settings.PaymentService;
 import com.miron.kursach.HelloApplication;
 import com.miron.kursach.models.Cashier;
 import com.miron.kursach.models.Payment;
-import com.miron.kursach.models.Something;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -107,7 +106,6 @@ public class ChangeCashierDataController <T>{
     private List<Cashier> cashiers = CashierService.getCashiers();
     private int OnDuty = 0;
     private boolean isOnDuty;
-    private Something something;
 
 
     @FXML
@@ -132,7 +130,7 @@ public class ChangeCashierDataController <T>{
 
         add_cashier.setOnAction(event -> {
             try {
-                addCashiers(new Something<>().setValue("hello"))
+                addCashiers();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -179,9 +177,8 @@ public class ChangeCashierDataController <T>{
         }
     }
 
-    private void addCashiers(Something<T> something) throws IOException {
-        T lol = something.getValue();
-        String lol2 = (String) lol;
+    private void addCashiers() throws IOException {
+
         String cashierName = enter_cashier_name.getText();
 
         String cashierSurame = enter_cashier_surname.getText();
