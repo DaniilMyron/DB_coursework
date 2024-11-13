@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="739.0" style="-fx-background-color: #3D30A2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miron.kursach.controllers.CashiersController">
+   <children>
+      <Button fx:id="back_button" layoutX="591.0" layoutY="44.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Повернутися" />
+      <TableView fx:id="cinemagoer_table" layoutY="108.0" prefHeight="300.0" prefWidth="739.0" style="-fx-background-color: #c3bcf7;">
+         <columns>
+            <TableColumn fx:id="cinemagoer_id" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" style="-fx-background-color: #bababf;" text="Id" />
+            <TableColumn fx:id="cinemagoer_name" maxWidth="190.0" minWidth="85.0" prefWidth="85.0" style="-fx-background-color: #bababf;" text="Ім'я" />
+            <TableColumn fx:id="cinemagoer_surname" maxWidth="225.0" minWidth="90.0" prefWidth="100.0" style="-fx-background-color: #bababf;" text="Прізвище" />
+            <TableColumn fx:id="cinemagoer_patronymic" maxWidth="255.0" minWidth="120.0" prefWidth="132.0" style="-fx-background-color: #bababf;" text="По-батькові" />
+            <TableColumn fx:id="cinemagoer_number" maxWidth="234.0" minWidth="120.0" prefWidth="125.0" style="-fx-background-color: #bababf;" text="Номер телефону" />
+            <TableColumn fx:id="cinema_name" maxWidth="329.0" minWidth="91.0" prefWidth="130.0" style="-fx-background-color: #bababf;" text="Працює в кінотеатрі" />
+            <TableColumn fx:id="cinema_adress" maxWidth="329.0" minWidth="72.0" prefWidth="116.0" style="-fx-background-color: #bababf;" text="Адреса кінотеатру" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

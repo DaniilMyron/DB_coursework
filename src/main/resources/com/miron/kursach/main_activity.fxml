@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="565.0" style="-fx-background-color: #3D30A2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miron.kursach.controllers.MainController">
+   <children>
+      <Button fx:id="change_info_button" layoutX="405.0" layoutY="33.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Зміна фільму" />
+      <Button fx:id="change_cinemagoers_button" layoutX="405.0" layoutY="132.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Зміна користувачів" />
+      <Button fx:id="change_cashier_button" layoutX="405.0" layoutY="228.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Зміна касирів" />
+      <Button fx:id="check_tickets_btn" layoutX="31.0" layoutY="33.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Квитки" />
+      <Button fx:id="check_worker_btn" layoutX="31.0" layoutY="132.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Персонал" />
+      <Button fx:id="check_sellings_btn" layoutX="31.0" layoutY="228.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="134.0" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Продаж" />
+   </children>
+</AnchorPane>

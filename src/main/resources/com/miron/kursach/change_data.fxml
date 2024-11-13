@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="298.0" prefWidth="484.0" style="-fx-background-color: #3D30A2;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miron.kursach.controllers.ChangeDataController">
+   <children>
+      <Pane fx:id="enter_ticket_value_pane" layoutX="37.0" layoutY="96.0" prefHeight="37.0" prefWidth="183.0" style="-fx-border-color: #FFF; -fx-background-color: #557C55; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Pane fx:id="enter_movie_name_pane" layoutX="39.0" layoutY="30.0" prefHeight="37.0" prefWidth="183.0" style="-fx-border-color: #FFF; -fx-background-color: #557C55; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Pane fx:id="enter_movie_date_pane" layoutX="37.0" layoutY="164.0" prefHeight="37.0" prefWidth="183.0" style="-fx-border-color: #FFF; -fx-background-color: #557C55; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button fx:id="add_movie" layoutX="85.0" layoutY="238.0" mnemonicParsing="false" style="-fx-background-color: #A6CF98; -fx-border-color: #FFF; -fx-background-radius: 15; -fx-border-radius: 15;" text="Додати фільм" textFill="WHITE" />
+      <Button fx:id="delete_movie" layoutX="332.0" layoutY="137.0" mnemonicParsing="false" style="-fx-background-color: #FA7070; -fx-border-color: #FFF; -fx-background-radius: 15; -fx-border-radius: 15;" text="Видалити сеанс" textFill="WHITE" />
+      <ChoiceBox fx:id="movie_names" layoutX="308.0" layoutY="36.0" prefWidth="150.0" style="-fx-background-color: #F05941; -fx-border-color: #FFF;" />
+      <TextField fx:id="enter_movie_name" alignment="CENTER" layoutX="52.0" layoutY="36.0" prefHeight="25.0" prefWidth="157.0" promptText="Введіть назву фільму" style="-fx-background-color: #557C55;" />
+      <TextField fx:id="enter_ticket_value" alignment="CENTER" layoutX="52.0" layoutY="102.0" prefHeight="25.0" prefWidth="157.0" promptText="Введіть ціну квитка" style="-fx-background-color: #557C55;" />
+      <TextField fx:id="enter_movie_date" alignment="CENTER" layoutX="52.0" layoutY="170.0" prefHeight="25.0" prefWidth="157.0" promptText="Введіть дату сеансу" style="-fx-background-color: #557C55;" />
+      <ChoiceBox fx:id="movie_date" layoutX="308.0" layoutY="82.0" prefWidth="150.0" style="-fx-background-color: #F05941; -fx-border-color: #FFF;" />
+      <Button fx:id="return_page" layoutX="339.0" layoutY="238.0" mnemonicParsing="false" style="-fx-background-color: #F4DFC8; -fx-border-color: #000; -fx-background-radius: 15; -fx-border-radius: 15;" text="Повернутися" />
+   </children>
+</AnchorPane>
